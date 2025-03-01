@@ -12,12 +12,12 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = "YOUR KEY HERE"
-    OWNER_ID = "YOUR ID HERE"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "YOUR USERNAME HERE"
+    API_KEY = "1060722149:AAGEWokvznyR4dHrau1LFVTHs2iN4x_thgg"
+    OWNER_ID = "820596651"  # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = "am_dq_fan HERE"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'postgresql://anshif_hh0g_user:Rl1xExrjIuoDZ6zlfJt3ABPVmkwbIUBu@dpg-cus0qh56l47c73aet8q0-a.oregon-postgres.render.com/anshif_hh0g'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     LOAD = []
     # sed has been disabled after the discovery that certain long-running sed commands maxed out cpu usage
@@ -37,11 +37,11 @@ class Config(object):
     CERT_PATH = None
     PORT = 5000
     DEL_CMDS = False  # Whether or not you should delete "blue text must click" commands
-    STRICT_GBAN = False
-    STRICT_GMUTE = False
+    STRICT_GBAN = True
+    STRICT_GMUTE = True
     WORKERS = 8  # Number of subthreads to use. This is the recommended amount - see for yourself what works best!
     BAN_STICKER = 'CAADAgADOwADPPEcAXkko5EB3YGYAg'  # ban sticker
-    START_STICKER = False  #add a START_STICKER_ID = 'stickerid' in your config.py if you use this as true
+    START_STICKER = True  #add a START_STICKER_ID = 'stickerid' in your config.py if you use this as true
     START_STICKER_ID = 'CAADAgAD0QMAAjq5FQKizo2AiTQCBQI'  #putin hand sticker
     ALLOW_EXCL = False  # Allow ! commands as well as /
     API_OPENWEATHER = None  # OpenWeather API
